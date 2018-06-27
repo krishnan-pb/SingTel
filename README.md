@@ -3,6 +3,7 @@ I have created seperate package for each section.
 
 
 Section A
+
 1a. Add sing() method inside Bird Class.
  You can unit test Solution class and ensure when sing() method is called it prints "I am Singing".  Alternately you can write JUNIT testcases and use assertion for testing sample code SolutionTest
 1b. The first approach is not scalable/maintainable if we have a new animal that cannot walk it wont fit into inheritance hierarchy.
