@@ -6,6 +6,7 @@ Section A
 
 1a. Add sing() method inside Bird Class.
  You can unit test Solution class and ensure when sing() method is called it prints "I am Singing".  Alternately you can write JUNIT testcases and use assertion for testing sample code SolutionTest
+ 
 1b. The first approach is not scalable/maintainable if we have a new animal that cannot walk it wont fit into inheritance hierarchy.
 To solve this create Animal abstract calss remove its behaviour walk(),sing(),fly() and add it to an interface so that a concrete class ex. Bird can extend Animal(Inheritance is a) and implement behavious walkIF, singIF, FlyIF(Coding to interface which decouples behaviour) - Test class TestSecA1B
 
